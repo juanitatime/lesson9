@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Roboto Serif', sans-serif;
 }
@@ -17,6 +18,7 @@ h1 {
     text-transform: uppercase;
     margin: 100px auto 20px auto;
     font-size: 60px;
+    
 }
 
 section,
@@ -67,7 +69,7 @@ select {
     }
     .flex-container {
         display: block;
-        width: 100%;
+        width: 50%;
     }
     .form-1 textarea {
         width: 200px;
@@ -84,7 +86,7 @@ textarea {
     height: 200px;
 }
 
-.form-2 input {
+.form-2 input, #time {
     width: 300px;
     border: 1px solid #ccc;
     margin-top: 2px;
@@ -101,6 +103,8 @@ textarea {
 
 .form-2 label {
     margin-left: -150px;
+    font-weight: bold;
+
 }
 
 .form-2 input[type=checkbox] {
@@ -116,7 +120,7 @@ textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 20px 50px 20px 50px;
+    margin: 20px auto 20px auto;
     transition: ease-in-out 0.3s;
 }
 
@@ -131,3 +135,4 @@ input[type=submit]:hover {
 p {
     line-height: 5px;
 }
+
